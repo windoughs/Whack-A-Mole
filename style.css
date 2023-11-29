@@ -1,0 +1,387 @@
+body {
+    margin: 0;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: #f0f0f0; 
+    background-image: url("image-of-jungle-501977652.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    cursor: pointer;
+}
+
+
+h1{
+    font-family: monospace;
+    font-size: 5rem;
+    color: darkgreen;
+    text-align: center;
+    font-weight: 900;
+}
+#game_start{
+    height: 40rem;
+    width: 40rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    align-self: center;
+    background-image: url("images-for-whack-a-mole-game-intro-page-and-i-want-the-mole-to-be-brown-695306705.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    box-shadow: 0 0 40px rgb(0,0,0);
+}
+#start-btn{
+    height: 5rem;
+    width: 15rem;
+    border-radius: 5px;
+    background-color: brown;
+    translate:0.4rem 5.2rem;
+    font-size: 2rem;
+    font-family:monospace ;
+    margin-top: 2rem;
+}
+#start-btn:hover{
+    color: white;
+    background-color: black;
+}
+#game_play{
+    background: linear-gradient(to right, rgb(48, 27, 27), rgb(35, 35, 16),rgb(19, 17, 17));
+    height: 33rem;
+    width: 80rem;
+    box-shadow: 0 0 40px rgb(0,0,0);
+}
+h2{
+    font-size: 2rem;
+    color: rgb(236, 236, 237);
+    font-weight: 900;
+    translate:5rem 0 ;
+}
+.circle{
+    height:9rem;
+    width: 9rem;
+    background-color:rgb(112, 57, 57);
+    border-radius: 40%;
+    margin: 1.5rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.moles-container{
+    display: flex;
+    flex-wrap: wrap;
+}
+.circle:hover{
+    box-shadow: 5px 5px 2px 2px black;
+}
+.hole{
+    height:8rem;
+    width: 8rem;
+    background-color: burlywood;
+    border-radius: 40%;
+    position: relative;
+    margin-left: 0.5rem;
+    margin-right: 0.5rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.mole{
+    height: 7rem;
+    width: 5rem;
+    background-color:rgb(112, 57, 57);
+    border-bottom-left-radius:23% ;
+    border-bottom-right-radius: 23%;
+    border-top-right-radius: 35%;
+    border-top-left-radius: 35%;
+    position: relative;
+    margin-top: 1.9rem;
+}
+.eyes{
+    height:4rem;
+    width:5.5rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.eyeball{
+    height: 1rem;
+    width: 1rem;
+    border-radius: 50%;
+    background-color: black;
+    margin-right: 0.5rem;
+}
+
+.horizontal-line {
+    border-bottom: 5px solid #000; /* 1px solid black line */
+    width: 2rem; /* Adjust the width as needed */
+    margin-left: 1.5rem; /* Adjust the margin as needed */
+  }
+
+#scoreCard{
+    background-color: rgb(84, 150, 27);
+    height: 40rem;
+    width: 40rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    align-self: center;
+    background-image: url("icon-for-whack-a-mole-game-564258380.png");
+    background-size: cover;
+    box-shadow: 0 0 40px rgb(0,0,0);
+}
+h3{
+    font-family: monospace;
+    font-size: 3rem;
+    color: rgb(12, 0, 0);
+    font-weight: 900;
+    text-align: left;
+    margin-left: 2rem;
+    position: relative;
+}
+.res-heading{
+    height: 10rem;
+    width: 25rem;
+    background-color: rgba(255,218,196,0.8);
+    border-radius: 3rem;
+}
+.score-btn{
+    height: 5rem;
+    width: 15rem;
+    border-radius: 5px;
+    background-color: brown;
+    translate:0.5rem 4rem;
+    font-size: 2rem;
+    font-family:monospace ;
+    margin-top: 2rem;
+}
+.score-btn:hover{
+    color: white;
+    background-color: black;
+}
+
+
+.mole-break1{
+    position: relative;
+    align-self: center;
+    height: 11rem;
+    width: 10rem;
+    display: flex;
+    flex-wrap: wrap;
+    
+}
+.mole-break2{
+    position: relative;
+    align-self: center;
+    height: 11rem;
+    width: 10rem;
+    display: flex;
+    flex-wrap: wrap;
+    
+}
+.mole-break3{
+    position: relative;
+    align-self: center;
+    height: 11rem;
+    width: 10rem;
+    display: flex;
+    flex-wrap: wrap;
+    
+}
+.mole-break4{
+    position: relative;
+    align-self: center;
+    height: 11rem;
+    width: 10rem;
+    display: flex;
+    flex-wrap: wrap;
+    
+}
+.mole-break5{
+    position: relative;
+    align-self: center;
+    height: 11rem;
+    width: 10rem;
+    display: flex;
+    flex-wrap: wrap;
+    
+}
+.mole-break6{
+    position: relative;
+    align-self: center;
+    height: 11rem;
+    width: 10rem;
+    display: flex;
+    flex-wrap: wrap;
+    
+}
+.mole-break7{
+    position: relative;
+    align-self: center;
+    height: 11rem;
+    width: 10rem;
+    display: flex;
+    flex-wrap: wrap;
+    
+}
+.mole-break8{
+    position: relative;
+    align-self: center;
+    height: 11rem;
+    width: 10rem;
+    display: flex;
+    flex-wrap: wrap;
+    
+}
+.mole-break9{
+    position: relative;
+    align-self: center;
+    height: 11rem;
+    width: 10rem;
+    display: flex;
+    flex-wrap: wrap;
+    
+}
+.mole-break10{
+    position: relative;
+    align-self: center;
+    height: 11rem;
+    width: 10rem;
+    display: flex;
+    flex-wrap: wrap;
+    
+}
+.mole-break11{
+    position: relative;
+    align-self: center;
+    height: 11rem;
+    width: 10rem;
+    display: flex;
+    flex-wrap: wrap;
+    
+}
+.mole-break12{
+    position: relative;
+    align-self: center;
+    height: 11rem;
+    width: 10rem;
+    display: flex;
+    flex-wrap: wrap;
+    
+}
+.box1,.box2,.box3,.box4,.box5,.box6,.box7,.box8,.box9{
+    height: 2rem;
+    width: 2rem;
+    background-color:rgb(112, 57, 57);
+}
+
+.box1{
+    position: relative;
+    animation: animebox1 700ms linear;
+}
+@keyframes animebox1 {
+    0%{
+        translate: -3rem 0;
+    }
+    40%{
+        translate: -4rem 0;
+    }
+    100%{
+        translate: -4rem 0 ;
+    }
+    
+}
+.box2{
+    position: relative;
+    animation: animebox2 700ms linear;
+}
+@keyframes animebox2 {
+    0%{
+        translate: 0 -3rem;
+    }
+    40%{
+        translate: 0 -8rem;
+    }
+    100%{
+        translate: 0 -5rem ;
+    }
+    
+}
+.box3{
+    position: relative;
+    animation: animebox3 700ms linear;
+}
+@keyframes animebox3 {
+    0%{
+        translate: 3rem 0;
+    }
+    40%{
+        translate: 4rem 0;
+    }
+    100%{
+        translate: 4rem 0 ;
+    }
+    
+}
+.box4{
+    position: relative;
+    animation: animebox4 700ms linear;
+}
+@keyframes animebox4 {
+    0%{
+        translate: -3rem 0;
+    }
+    40%{
+        translate: -6rem 0;
+    }
+    100%{
+        translate: -6rem 0 ;
+    }
+    
+}
+.box6{
+    position: relative;
+    animation: animebox6 700ms linear;
+
+}
+
+@keyframes animebox6 {
+    0%{
+        translate: 3rem 0;
+    }
+    40%{
+        translate: 6rem 0;
+    }
+    100%{
+        translate: 4rem 0 ;
+    }
+    
+}
+.box7{
+    position: relative;
+    animation: animebox1 700ms linear;
+}
+.box8{
+    position: relative;
+    animation: animebox8 700ms linear;
+}
+@keyframes animebox8 {
+    0%{
+        translate: 0 3rem;
+    }
+    40%{
+        translate: 0 4rem;
+    }
+    100%{
+        translate: 0 4rem;
+    }
+    
+}
+.box9{
+    position: relative;
+    animation: animebox3 700ms linear;
+
+}
+ 
